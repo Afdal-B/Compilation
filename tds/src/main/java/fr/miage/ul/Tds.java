@@ -1,4 +1,4 @@
 package fr.miage.ul;
-public class tds {
+public class Tds {
     
 }
