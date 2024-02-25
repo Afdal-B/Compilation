@@ -1,4 +1,4 @@
-package fr.miage.ul;
+package fr.ul.miage.us;
 
 public enum Type{
     VOID,INT

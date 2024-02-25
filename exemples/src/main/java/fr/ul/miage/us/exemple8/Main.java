@@ -1,5 +1,6 @@
 package fr.ul.miage.us.exemple8;
 import fr.ul.miage.arbre.*;
+import fr.ul.miage.us.*;
 public class Main {
     public static void main(String[] args) {
         // Creation des noeuds 
@@ -48,8 +49,29 @@ public class Main {
        appel.ajouterUnFils(const1);
        appel.ajouterUnFils(const2);
        ecrire.setLeFils(a2);
-       TxtAfficheur.afficher(prog);
+       //TxtAfficheur.afficher(prog);
 
+       // Creer la TDS
+       Tds tds8 = new Tds();
+       //creer les items de la table 
+       Item item_main = new Item("main",Type.VOID, Cat.FONCTION);
+       Item item_a = new Item("a", Type.INT, Cat.GLOBAL);
+       Item item_f = new Item("f",Type.INT,Cat.FONCTION,2,1);
+       Item item_x = new Item("x",Type.INT,Cat.LOCAL,0,item_f);
+       Item item_i = new Item("i",Type.INT,Cat.PARAM,0,item_f);
+       Item item_j = new Item("j",Type.INT,Cat.PARAM,1,item_f);
        
+       //Afficher un Item
+       //System.out.println(item_x.toString());
+
+       // Ajouter les items
+       tds8.addItem(item_main);
+       tds8.addItem(item_a);
+       tds8.addItem(item_f);
+       tds8.addItem(item_x);
+       tds8.addItem(item_i);
+       tds8.addItem(item_j);
+       // Afficher la TDS
+       System.out.println(tds8.toString());
     }
 }

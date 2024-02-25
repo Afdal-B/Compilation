@@ -2,10 +2,6 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="arbre-master/src/main/java"/>
-	<classpathentry excluding="fr/miage/ul/" kind="src" path="tds/src/main/java"/>
-	<classpathentry kind="src" path="tds/src/main/java/fr/miage/ul"/>
 	<classpathentry kind="lib" path="arbre-master/bindist/repo/fr/ul/miage/arbre/0.0.5/arbre-0.0.5.jar"/>
 	<classpathentry kind="lib" path="arbre-master/bindist/repo/fr/ul/miage/arbre/0.0.6/arbre-0.0.6.jar"/>
-	<classpathentry kind="src" path="exemple7/src/main/java/fr/ul/miage"/>
-	<classpathentry kind="output" path="tds/target/classes"/>
 </classpath>
