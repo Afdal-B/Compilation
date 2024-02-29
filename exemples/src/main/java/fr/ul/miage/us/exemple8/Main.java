@@ -49,7 +49,7 @@ public class Main {
        appel.ajouterUnFils(const1);
        appel.ajouterUnFils(const2);
        ecrire.setLeFils(a2);
-       //TxtAfficheur.afficher(prog);
+       TxtAfficheur.afficher(prog);
 
        // Creer la TDS
        Tds tds8 = new Tds();
@@ -60,7 +60,6 @@ public class Main {
        Item item_x = new Item("x",Type.INT,Cat.LOCAL,0,item_f);
        Item item_i = new Item("i",Type.INT,Cat.PARAM,0,item_f);
        Item item_j = new Item("j",Type.INT,Cat.PARAM,1,item_f);
-       
        //Afficher un Item
        //System.out.println(item_x.toString());
 

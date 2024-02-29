@@ -1,5 +1,9 @@
 package fr.ul.miage.us.exemple7;
 import fr.ul.miage.arbre.*;
+import fr.ul.miage.us.Cat;
+import fr.ul.miage.us.Item;
+import fr.ul.miage.us.Tds;
+import fr.ul.miage.us.Type;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,8 +29,8 @@ public class Main {
             Const const1 = new Const(1);
             Const const3 = new Const(3);
             Const const1_2 = new Const(1); 
-            prog.ajouterUnFils(principal);
             prog.ajouterUnFils(f);
+            prog.ajouterUnFils(principal);
             principal.ajouterUnFils(appel);
             principal.ajouterUnFils(ecrire);
             appel.ajouterUnFils(const3);
@@ -45,5 +49,24 @@ public class Main {
             plus2.setFilsGauche(x2);
             plus2.setFilsDroit(y2);
             TxtAfficheur.afficher(prog);
+
+            Tds tds7 = new Tds();
+            //créer l'item de la table
+            Item item_main = new Item("main",Type.VOID, Cat.FONCTION );
+            Item item_a = new Item("a", Type.INT, Cat.GLOBAL, 10);
+            Item item_f = new Item("f", Type.VOID, Cat.FONCTION, 1, 2);
+            Item item_i = new Item("i", Type.INT, Cat.PARAM, 0, item_f);
+            Item item_x = new Item("x", Type.INT, Cat.LOCAL, 0, item_f);
+            Item item_y = new Item("y", Type.INT, Cat.LOCAL, 1, item_f);
+            // ajouter l'item
+            tds7.addItem(item_main);
+            tds7.addItem(item_a);
+            tds7.addItem(item_f);
+            tds7.addItem(item_i);
+            tds7.addItem(item_x);
+            tds7.addItem(item_y);
+            // afficher l'item de la table
+            System.out.println(tds7.toString());
+    
     }
 }

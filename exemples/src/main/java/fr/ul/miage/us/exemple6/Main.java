@@ -1,6 +1,10 @@
 package fr.ul.miage.us.exemple6;
 
 import fr.ul.miage.arbre.*;
+import fr.ul.miage.us.Cat;
+import fr.ul.miage.us.Item;
+import fr.ul.miage.us.Tds;
+import fr.ul.miage.us.Type;
 
 public class Main {
     public static void main(String[] args) {
@@ -39,5 +43,20 @@ public class Main {
 	plus.setFilsGauche(i5);
 	plus.setFilsDroit(const2);
 	TxtAfficheur.afficher(prog);
+
+    Tds tds6 = new Tds();
+    //créer l'item de la table
+    Item item_main = new Item("main",Type.VOID, Cat.FONCTION );
+    Item item_i = new Item("i", Type.INT, Cat.GLOBAL);
+    Item item_n = new Item("n", Type.INT, Cat.GLOBAL, 5);
+    
+    // ajouter l'item
+    tds6.addItem(item_main);
+    tds6.addItem(item_i);
+    tds6.addItem(item_n);
+
+    // afficher l'item de la table
+    System.out.println(tds6.toString());
     }
+    
 }
