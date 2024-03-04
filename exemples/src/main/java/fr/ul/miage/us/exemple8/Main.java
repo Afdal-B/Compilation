@@ -1,8 +1,13 @@
 package fr.ul.miage.us.exemple8;
 import fr.ul.miage.arbre.*;
 import fr.ul.miage.us.*;
+import fr.ul.miage.us.generation.GenererAffectation;
+import fr.ul.miage.us.generation.GenererAppel;
+import fr.ul.miage.us.generation.GenererFonction;
+import fr.ul.miage.us.generation.GenererProg;
+import fr.ul.miage.us.generation.GenererRetour;
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         // Creation des noeuds 
        Prog prog = new Prog();
        Fonction f = new Fonction("f");
@@ -71,6 +76,7 @@ public class Main {
        tds8.addItem(item_i);
        tds8.addItem(item_j);
        // Afficher la TDS
-       System.out.println(tds8.toString());
+       //System.out.println(tds8.toString());
+       System.out.println(GenererProg.genererProg(prog, tds8));
     }
 }

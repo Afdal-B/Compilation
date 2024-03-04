@@ -4,8 +4,9 @@ import fr.ul.miage.us.Cat;
 import fr.ul.miage.us.Item;
 import fr.ul.miage.us.Tds;
 import fr.ul.miage.us.Type;
+import fr.ul.miage.us.generation.*;
 public class Main {
-	public static void main(String[]args) {
+	public static void main(String[]args) throws Exception {
 	//création des noeuds
  	Prog prog = new Prog();
 	Fonction principal = new Fonction("main");
@@ -25,7 +26,7 @@ public class Main {
 	ecrire.setLeFils(plus);
 	plus.setFilsGauche(i2);
 	plus.setFilsDroit(j);
-	TxtAfficheur.afficher(prog);
+	//TxtAfficheur.afficher(prog);
     Tds tds4 = new Tds();
     //créer l'item de la table
     Item item_main = new Item("main",Type.VOID, Cat.FONCTION );
@@ -38,6 +39,8 @@ public class Main {
     tds4.addItem(item_j);
 
     // afficher l'item de la table
-    System.out.println(tds4.toString());
+    //System.out.println(tds4.toString());
+	System.out.println(GenererProg.genererProg(prog, tds4));
+
 	}
-}	
+}

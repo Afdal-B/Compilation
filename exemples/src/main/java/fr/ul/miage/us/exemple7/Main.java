@@ -4,9 +4,12 @@ import fr.ul.miage.us.Cat;
 import fr.ul.miage.us.Item;
 import fr.ul.miage.us.Tds;
 import fr.ul.miage.us.Type;
-
+import fr.ul.miage.us.generation.GenererAppel;
+import fr.ul.miage.us.generation.GenererFonction;
+import fr.ul.miage.us.generation.GenererInstruction;
+import fr.ul.miage.us.generation.GenererProg;
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
       
             Prog prog = new Prog();
             Fonction principal = new Fonction ("main");
@@ -66,7 +69,13 @@ public class Main {
             tds7.addItem(item_x);
             tds7.addItem(item_y);
             // afficher l'item de la table
-            System.out.println(tds7.toString());
-    
+            //System.out.println(tds7.toString());
+            //System.out.println(x1.getLabel().split("/")[1]);
+            //System.out.println(GenererFonction.generer_fonction(f, tds7));
+            //System.out.println(appel.getLabel().split("/")[2]);
+            //System.out.println(GenererAppel.generer_appel(appel, tds7));
+            System.out.println(GenererProg.genererProg(prog, tds7));
+            //System.out.println(GenererInstruction.generer_instruction(aff3, tds7));
+
     }
 }

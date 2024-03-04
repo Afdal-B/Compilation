@@ -15,9 +15,10 @@ import fr.ul.miage.us.Cat;
 import fr.ul.miage.us.Item;
 import fr.ul.miage.us.Tds;
 import fr.ul.miage.us.Type;
+import fr.ul.miage.us.generation.GenererProg;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
     Prog prog = new Prog();
 	Fonction principal = new Fonction("main");
 	Affectation aff1 = new Affectation();
@@ -63,6 +64,7 @@ public class Main {
     tds5.addItem(item_i);
 
     // afficher l'item de la table
-    System.out.println(tds5.toString());
+    //System.out.println(tds5.toString());
+    System.out.println(GenererProg.genererProg(prog, tds5));
 }
 }

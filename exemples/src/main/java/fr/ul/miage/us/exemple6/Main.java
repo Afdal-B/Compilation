@@ -1,13 +1,16 @@
 package fr.ul.miage.us.exemple6;
-
+import java.util.List;
+import java.util.ArrayList;
 import fr.ul.miage.arbre.*;
 import fr.ul.miage.us.Cat;
 import fr.ul.miage.us.Item;
 import fr.ul.miage.us.Tds;
 import fr.ul.miage.us.Type;
+import fr.ul.miage.us.generation.GenererDeclaration;
+import fr.ul.miage.us.generation.GenererProg;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
     Prog prog = new Prog();
 	Fonction principal = new Fonction("main");
 	Affectation aff1 = new Affectation();
@@ -42,7 +45,7 @@ public class Main {
 	aff2.setFilsDroit(plus);
 	plus.setFilsGauche(i5);
 	plus.setFilsDroit(const2);
-	TxtAfficheur.afficher(prog);
+	//TxtAfficheur.afficher(prog);
 
     Tds tds6 = new Tds();
     //créer l'item de la table
@@ -54,9 +57,11 @@ public class Main {
     tds6.addItem(item_main);
     tds6.addItem(item_i);
     tds6.addItem(item_n);
-
-    // afficher l'item de la table
-    System.out.println(tds6.toString());
-    }
     
+    // afficher l'item de la table
+    //System.out.println(tds6.toString());
+    //System.out.println(GenererTantQue.generer_tantque(tq1));
+    System.out.println(GenererProg.genererProg(prog, tds6));
+    
+}
 }

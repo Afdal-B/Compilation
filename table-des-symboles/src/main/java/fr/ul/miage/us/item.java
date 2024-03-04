@@ -57,6 +57,9 @@ public class Item {
         this.nombre_de_parametre = nombre_de_parametre;
     }
     public Integer getValeur() {
+        // Si la valeur d'un item n'est pas donné, on pourra l'initialiser à 0
+        if(valeur == null)
+            return 0;
         return valeur;
     }
     public void setValeur(Integer valeur) {
