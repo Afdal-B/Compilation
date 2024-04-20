@@ -2,6 +2,7 @@ package fr.ul.miage.us.generation;
 import fr.ul.miage.arbre.Noeud;
 import fr.ul.miage.arbre.TantQue;
 import fr.ul.miage.us.Tds;
+// Une fonction qui permet de générer une boucle TantQue .
 public class GenererTantQue {
     public static String generer_tantque(Noeud a,Tds tds) throws Exception{
         StringBuffer buf = new StringBuffer();

@@ -64,7 +64,7 @@ public class Main {
     tds5.addItem(item_i);
 
     // afficher l'item de la table
-    //System.out.println(tds5.toString());
+    System.out.println(tds5.toString());
     System.out.println(GenererProg.genererProg(prog, tds5));
 }
 }

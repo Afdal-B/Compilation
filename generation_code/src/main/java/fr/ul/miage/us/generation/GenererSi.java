@@ -2,7 +2,7 @@ package fr.ul.miage.us.generation;
 import fr.ul.miage.arbre.Noeud;
 import fr.ul.miage.arbre.Si;
 import fr.ul.miage.us.Tds;
-
+// Une fonction qui permet de générer un Si , Alors , sinon .
 public class GenererSi {
  public static String generer_si(Noeud a,Tds tds) throws Exception{
         StringBuffer buf = new StringBuffer();

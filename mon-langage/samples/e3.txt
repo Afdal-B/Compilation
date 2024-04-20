@@ -1,0 +1,6 @@
+entier a;
+entier b;
+vide main() {
+	b= lire();
+	ecrire (a);
+}

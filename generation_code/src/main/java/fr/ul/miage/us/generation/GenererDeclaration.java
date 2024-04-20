@@ -4,7 +4,7 @@ import java.util.List;
 
 import fr.ul.miage.us.Item;
 import fr.ul.miage.us.Tds;
-
+// Une fonction qui permet de generer les variables globales en utilisant la TDS 
 public class GenererDeclaration {
     public static String generer_declaration(Tds tds) throws Exception
     {   StringBuffer buf = new StringBuffer();

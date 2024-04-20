@@ -1,5 +1,5 @@
 package fr.ul.miage.us.generation;
-
+// Une fonction qui permet de generer la lecture d'un entier en console. 
 public class GenererLire {
     public static String generer_lire() throws Exception{
     StringBuffer buf = new StringBuffer(); // je créé un objet vide

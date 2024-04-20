@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import fr.ul.miage.arbre.Noeud;
 import fr.ul.miage.us.Tds;
-
+// Une fonction qui permet de generer un bloc
 public class GenererBloc {
     public static String generer_bloc(Noeud b,Tds tds) throws Exception{
     StringBuffer buf = new StringBuffer();

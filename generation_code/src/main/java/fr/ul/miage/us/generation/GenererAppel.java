@@ -1,9 +1,9 @@
 package fr.ul.miage.us.generation;
-
 import fr.ul.miage.arbre.Noeud;
 import fr.ul.miage.us.Tds;
 import fr.ul.miage.us.Type;
 import fr.ul.miage.arbre.Appel;
+// Une fonction qui permet de generer un appel
 public class GenererAppel {
     public static String generer_appel(Noeud a,Tds tds) throws Exception{
         StringBuffer buf =new StringBuffer();

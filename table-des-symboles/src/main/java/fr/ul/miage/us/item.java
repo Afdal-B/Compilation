@@ -1,3 +1,4 @@
+// Les items : Ce sont les lignes de notre TDS 
 package fr.ul.miage.us;
 public class Item {
     private String nom;

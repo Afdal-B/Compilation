@@ -2,7 +2,7 @@ package fr.ul.miage.us.generation;
 import fr.ul.miage.arbre.Ecrire;
 import fr.ul.miage.arbre.Noeud;
 import fr.ul.miage.us.Tds;
-
+// Une fonction pour générer l'ecriture (Affichage)
 public class GenererEcrire {
 
     public static String generer_ecrire(Noeud a,Tds tds) throws Exception{

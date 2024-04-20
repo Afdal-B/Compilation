@@ -3,7 +3,7 @@ package fr.ul.miage.us.generation;
 import fr.ul.miage.arbre.Noeud;
 import fr.ul.miage.arbre.Retour;
 import fr.ul.miage.us.Tds;
-
+// Une fonction qui permet de générer un retour.
 public class GenererRetour {
     public static String generer_retour(Noeud a,Tds tds) throws Exception
     {

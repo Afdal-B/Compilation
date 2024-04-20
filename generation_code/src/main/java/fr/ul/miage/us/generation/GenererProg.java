@@ -1,8 +1,7 @@
 package fr.ul.miage.us.generation;
 import fr.ul.miage.arbre.Noeud;
-import fr.ul.miage.arbre.Prog;
 import fr.ul.miage.us.Tds;
-
+// Une fonction qui permet de generer un programme complet , Cette fonction appelera implicitement toutes le autres fonctions
 public class GenererProg {
     public static String genererProg(Noeud a, Tds tds) throws Exception
     {

@@ -5,6 +5,7 @@ import fr.ul.miage.arbre.Multiplication;
 import fr.ul.miage.arbre.Noeud;
 import fr.ul.miage.arbre.Plus;
 import fr.ul.miage.us.Tds;
+// Une fonction pour générer des expressions récursivement.
 public class GenererExpression {
     public static String generer_expression(Noeud a, Tds tds) throws Exception{
 		StringBuffer buf = new StringBuffer();

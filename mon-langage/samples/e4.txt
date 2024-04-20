@@ -1,0 +1,10 @@
+entier a;
+entier b;
+vide main() {
+	a=lire ();
+	b=5;
+	si (a > b)
+		{ecrire (a);}
+ 	sinon
+		{ecrire(b);}
+}

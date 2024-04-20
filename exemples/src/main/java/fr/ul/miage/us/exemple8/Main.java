@@ -65,8 +65,6 @@ public class Main {
        Item item_x = new Item("x",Type.INT,Cat.LOCAL,0,item_f);
        Item item_i = new Item("i",Type.INT,Cat.PARAM,0,item_f);
        Item item_j = new Item("j",Type.INT,Cat.PARAM,1,item_f);
-       //Afficher un Item
-       //System.out.println(item_x.toString());
 
        // Ajouter les items
        tds8.addItem(item_main);
@@ -76,7 +74,8 @@ public class Main {
        tds8.addItem(item_i);
        tds8.addItem(item_j);
        // Afficher la TDS
-       //System.out.println(tds8.toString());
+       System.out.println(tds8.toString());
+       // Afficher le programme
        System.out.println(GenererProg.genererProg(prog, tds8));
     }
 }

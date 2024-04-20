@@ -1,0 +1,8 @@
+entier addition (entier a, entier b){
+	entier S;
+	S=a+b;
+	retourne S;}
+vide main () {
+	entier res;
+	res = addition (5,10);
+	ecrire (res);}

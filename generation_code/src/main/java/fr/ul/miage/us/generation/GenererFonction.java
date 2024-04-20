@@ -6,7 +6,7 @@ import java.util.List;
 import fr.ul.miage.arbre.Fonction;
 import fr.ul.miage.arbre.Noeud;
 import fr.ul.miage.us.Tds;
-
+// Une fonction qui permet de generer une fonction 
 public class GenererFonction {
     public static String generer_fonction(Noeud a, Tds tds) throws Exception
     {

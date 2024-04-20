@@ -1,7 +1,5 @@
 package fr.ul.miage.us.generation;
-
-import fr.ul.miage.arbre.Noeud;
-
+//Une fonction qui permet de préparer la pile avant utilisation.
 public class PreparerPile {
     public static String preparer_pile() throws Exception{
     StringBuffer buf = new StringBuffer(); // je créé un objet vide

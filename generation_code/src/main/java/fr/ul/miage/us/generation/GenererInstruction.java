@@ -2,7 +2,7 @@ package fr.ul.miage.us.generation;
 
 import fr.ul.miage.arbre.Noeud;
 import fr.ul.miage.us.Tds;
-
+// Une fonction qui permet de générer une instruction 
 public class GenererInstruction {
     public static String generer_instruction(Noeud a,Tds tds) throws Exception
     {

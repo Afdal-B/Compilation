@@ -69,13 +69,9 @@ public class Main {
             tds7.addItem(item_x);
             tds7.addItem(item_y);
             // afficher l'item de la table
-            //System.out.println(tds7.toString());
-            //System.out.println(x1.getLabel().split("/")[1]);
-            //System.out.println(GenererFonction.generer_fonction(f, tds7));
-            //System.out.println(appel.getLabel().split("/")[2]);
-            //System.out.println(GenererAppel.generer_appel(appel, tds7));
+            System.out.println(tds7.toString());
             System.out.println(GenererProg.genererProg(prog, tds7));
-            //System.out.println(GenererInstruction.generer_instruction(aff3, tds7));
+        
 
     }
 }

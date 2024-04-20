@@ -1,0 +1,10 @@
+entier a;
+entier res=1;
+vide main (){
+	a=lire();
+	tantque(a>1) {
+		res=res*a;
+		a=a-1;
+	}
+    ecrire(res);
+}

@@ -1,0 +1,13 @@
+entier factorielle (entier n) {
+	si (n=0){
+		retourne 1;
+	}
+	retourne n * factorielle (n-1);
+}
+
+vide main()
+{
+	entier a;
+	a=factorielle(5);
+	ecrire(a);
+}

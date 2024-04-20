@@ -7,6 +7,7 @@ import fr.ul.miage.arbre.Noeud;
 import fr.ul.miage.arbre.Superieur;
 import fr.ul.miage.arbre.SuperieurEgal;
 import fr.ul.miage.us.Tds;
+// Une fonction qui permet de generer une condition en fonction du comparateur
 public class GenererCondition {
     public static String generer_condition(Noeud c,Tds tds) throws Exception{
     StringBuffer buf = new StringBuffer(); // je créé un objet vide
