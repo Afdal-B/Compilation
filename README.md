@@ -1,13 +1,18 @@
-# Compilation
+# Compiler Project
 
-<img width="407" alt="Screenshot 2024-06-05 at 1 18 47" src="https://github.com/Afdal-B/Compilation/assets/159702730/40b7f94a-fc71-4e8d-9ab7-3dbf124c89d2"> </br>
+This project is a Java-based compiler that I developed using technologies such as Maven, JFlex, and CUP. The compiler is designed to translate source code into an executable format, demonstrating the principles of lexical analysis, parsing, and code generation.
 
-<img width="560" alt="Screenshot 2024-06-05 at 1 19 43" src="https://github.com/Afdal-B/Compilation/assets/159702730/b0ec16bc-c97c-44d5-b317-7427c91edbe9"> </br>
+## Features
 
-<img width="565" alt="Screenshot 2024-06-05 at 1 20 05" src="https://github.com/Afdal-B/Compilation/assets/159702730/bf28da50-4b0e-49bb-8f38-5d8eba5ccd5a"> </br>
+- **Lexical Analysis**: Utilizes JFlex to tokenize the input source code.
+- **Syntax Analysis**: Employs CUP for parsing the tokenized input and building a syntax tree.
+- **Code Generation**: Converts the syntax tree into executable code.
 
-<img width="362" alt="Screenshot 2024-06-05 at 1 20 42" src="https://github.com/Afdal-B/Compilation/assets/159702730/c1d908c5-04be-46e9-a502-1293038a69c7"> </br>
+## Technologies Used
 
-<img width="362" alt="Screenshot 2024-06-05 at 1 21 14" src="https://github.com/Afdal-B/Compilation/assets/159702730/e6859a5f-b8d6-4a77-892b-3c698395604a"> </br>
+- **Java**: The primary programming language for the compiler.
+- **Maven**: Used for project management and build automation.
+- **JFlex**: A lexical analyzer generator for Java.
+- **CUP**: A parser generator for Java, used to create the syntax tree.
 
-<img width="616" alt="Screenshot 2024-06-05 at 1 21 41" src="https://github.com/Afdal-B/Compilation/assets/159702730/2b932f5c-638d-4d36-8d0b-fbb727b96a3b">
+## Demo
