@@ -16,3 +16,7 @@ This project is a Java-based compiler that I developed using technologies such a
 - **CUP**: A parser generator for Java, used to create the syntax tree.
 
 ## Demo
+
+
+https://github.com/user-attachments/assets/87e6c2e8-38b3-481c-8a79-f4ddee21bf18
+
