@@ -3,3 +3,4 @@
 .gitattributes
 .project
 .classpath
+.DS_Store
