@@ -22,6 +22,6 @@ https://github.com/user-attachments/assets/87e6c2e8-38b3-481c-8a79-f4ddee21bf18
 
 ## execution dans Bsim du code asm généré
 
-https://github.com/user-attachments/assets/336635835-2b932f5c-638d-4d36-8d0b-fbb727b96a3b
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/9192c805-1ff7-489a-a031-88b8e9300365" />
 
 
