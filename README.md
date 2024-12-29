@@ -1,5 +1,10 @@
 # Compiler Project
 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
+![JFlex](https://img.shields.io/badge/JFlex-007396?style=for-the-badge&logo=java&logoColor=white)
+![CUP](https://img.shields.io/badge/CUP-007396?style=for-the-badge&logo=java&logoColor=white)
+
 This project is a Java-based compiler that I developed using technologies such as Maven, JFlex, and CUP. The compiler is designed to translate source code into an executable format, demonstrating the principles of lexical analysis, parsing, and code generation.
 
 ## Features
