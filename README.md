@@ -20,7 +20,7 @@ This project is a Java-based compiler that I developed using technologies such a
 
 https://github.com/user-attachments/assets/87e6c2e8-38b3-481c-8a79-f4ddee21bf18
 
-## execution in Bsim of the asm code generated
+## Execution in Bsim of the asm code generated
 
 <img width="452" alt="image" src="https://github.com/user-attachments/assets/9192c805-1ff7-489a-a031-88b8e9300365" />
 
